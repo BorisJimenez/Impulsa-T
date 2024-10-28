@@ -15,6 +15,7 @@ html {
   font-family: var(--main-font);
   font-size: var(--font-size);
   scroll-behavior: smooth;
+  padding-bottom: 8rem;
 }
 
 *,
@@ -158,7 +159,11 @@ h2 {
   border: none;
   border-radius: 1rem;
   background-color: var(--second-modal-color);
+}
+
+.banner a {
   color: var(--main-color);
+  text-decoration: none;
 }
 
 /* Noticias */
@@ -243,6 +248,69 @@ h2 {
 .projects img {
   width: 50%;
   border-radius: 50%;
+}
+
+/* Contacto */
+
+.contact h2 {
+  font-size: 3rem;
+  color: var(--main-modal-color);
+  margin-bottom: 1rem;
+}
+
+.contact form {
+  background-color: var(--second-modal-color);
+  padding: 2rem;
+  border: none;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 90vh;
+}
+
+.contact label {
+  align-self: start;
+  color: var(--main-color);
+  margin-bottom: -0.5rem;
+}
+
+.input {
+  background-color: var(--second-modal-color);
+  border: none;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.input::placeholder {
+  font-family: var(--main-font);
+  color: var(--main-modal-color);
+  opacity: 50%;
+}
+
+.contact textarea {
+  background-color: var(--second-modal-color);
+  border: none;
+  padding: 1rem;
+  border-radius: 1rem;
+  height: 30vh;
+}
+
+.contact textarea::placeholder {
+  font-family: var(--main-font);
+  color: var(--main-modal-color);
+  opacity: 50%;
+}
+
+.submit {
+  width: 50%;
+  padding: 1rem;
+  margin-top: 1rem;
+  align-self: center;
+  border: none;
+  border-radius: 1rem;
+  background-color: var(--second-modal-color);
+  color: var(--main-modal-color);
 }
 
 /* Footer */
