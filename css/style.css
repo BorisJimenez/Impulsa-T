@@ -123,7 +123,7 @@ h2 {
 /* Hero Image - Home*/
 
 .div {
-  background-image: url(/assets/images/hero-image.jpg);
+  background-image: url(/assets/images/heroimage.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
